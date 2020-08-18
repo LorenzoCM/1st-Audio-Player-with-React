@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.box-title {
+  margin: 60px 0 40px 0;
+  font-family: 'Orbitron', sans-serif;
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.audio-box { 
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.centrar {
+  display: block;
+  text-align: left;
+}
+
+.currently {
+  border: 1px solid black;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.playlist {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+  background-color: rgb(255, 254, 254);
+  border: 1px solid black;      
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+  color: black;
+  justify-content: space-evenly;
+  border-radius: 0 0 15px 15px;
+}
+
+.musicControls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  font-family: 'Orbitron', sans-serif;
+}
+
+li:hover {
+  color: #3700ff;
+}
+
+.vlme {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.musicControls {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+i:hover {
+  color: #3700ff;
+}
+
+.fa-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+
+.fa-pause {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%; 
+}
+
+.fa-step-backward {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.fa-step-forward {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.fa-random {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.fa-redo-alt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.fa-volume-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.fa-volume-up {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%; 
 }
